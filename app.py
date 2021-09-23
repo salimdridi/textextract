@@ -104,6 +104,6 @@ def get_files(path):
     if we import the functions of this file into the other files then this part will not get imported.
 '''
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+    app.run()
  #run the server on the localhost with default port of 5000
 
